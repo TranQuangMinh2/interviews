@@ -10,7 +10,11 @@
 //   [-1, -1, 2]
 // ]
 
-public class 3Sum {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Sum {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>>  result = new ArrayList<>();
         

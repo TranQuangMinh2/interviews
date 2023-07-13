@@ -24,7 +24,7 @@ class LetterCombinationsOfAPhoneNumber {
         if(digits == null || digits.length() == 0) {
             return result;
         }
-        
+
         String[] mapping = {
             "0",
             "1",
