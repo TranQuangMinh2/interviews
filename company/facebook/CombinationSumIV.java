@@ -23,7 +23,7 @@
     // How does it change the problem?
     // What limitation we need to add to the question to allow negative numbers?
 
-public class Solution {
+public class CombinationSumIV {
 
     public int combinationSum4(int[] nums, int target) {
         

@@ -16,6 +16,10 @@
 //   []
 // ]
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();

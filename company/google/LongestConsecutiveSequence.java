@@ -6,6 +6,9 @@
 
 // Your algorithm should run in O(n) complexity.
 
+import java.util.HashSet;
+import java.util.Set;
+
 class LongestConsecutiveSequence {
     public int longestConsecutive(int[] nums) {
         if(nums == null || nums.length == 0) {
@@ -20,7 +23,6 @@ class LongestConsecutiveSequence {
         int maxLength = 0;
         for(int n: set) {
             if(!set.contains(n - 1)) {
-                int current = n;
                 int currentMax = 1;
                 
                 while(set.contains(n + 1)) {

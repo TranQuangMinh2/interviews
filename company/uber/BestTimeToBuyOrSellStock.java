@@ -13,7 +13,7 @@
 
 // In this case, no transaction is done, i.e. max profit = 0.
 
-public class BestTimeToBuyAndSellStock {
+public class BestTimeToBuyOrSellStock {
     public int maxProfit(int[] prices) {
         //Kadane's algorithm
         if(prices.length == 0) {

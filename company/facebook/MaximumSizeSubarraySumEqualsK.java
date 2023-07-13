@@ -14,6 +14,8 @@
 // Follow Up:
 // Can you do it in O(n) time?
 
+import java.util.HashMap;
+
 public class MaximumSizeSubarraySumEqualsK {
     public int maxSubArrayLen(int[] nums, int k) {
         if(nums.length == 0) {

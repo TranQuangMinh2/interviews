@@ -10,6 +10,11 @@
 // ]
 // Note: All inputs will be in lower-case.
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+
 public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         if(strs == null || strs.length == 0) {

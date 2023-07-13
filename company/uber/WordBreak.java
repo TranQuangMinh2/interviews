@@ -6,6 +6,8 @@
 
 // Return true because "leetcode" can be segmented as "leet code".
 
+import java.util.Set;
+
 public class WordBreak {
     public boolean wordBreak(String s, Set<String> wordDict) {
         boolean[] dp = new boolean[s.length() + 1];

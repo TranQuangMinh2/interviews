@@ -20,6 +20,8 @@
 //          / \
 //          \_/
 
+import java.util.HashMap;
+
 /**
  * Definition for undirected graph.
  * class UndirectedGraphNode {

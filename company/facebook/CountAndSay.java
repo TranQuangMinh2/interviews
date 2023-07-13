@@ -8,7 +8,7 @@
 
 // Note: The sequence of integers will be represented as a string.
 
-public class Solution {
+public class CountAndSay {
 
     public String countAndSay(int n) {
         

@@ -8,6 +8,8 @@
 // trie.insert("somestring");
 // trie.search("key");
 
+import java.util.HashMap;
+
 class TrieNode {
     HashMap<Character, TrieNode> map;
     char character;
@@ -24,7 +26,7 @@ class TrieNode {
 public class ImplementTrie {
     private TrieNode root;
 
-    public Trie() {
+    public void Trie() {
         root = new TrieNode(' ');
     }
 

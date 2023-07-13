@@ -2,14 +2,14 @@
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
  */
-public class Solution {
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+public class ConvertSortedArrayToBinarySearchTree {
     public TreeNode sortedArrayToBST(int[] nums) {
         if(nums.length == 0) {
             return null;

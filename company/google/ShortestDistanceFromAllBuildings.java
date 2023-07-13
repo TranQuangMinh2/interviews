@@ -15,6 +15,9 @@
 // Note:
 // There will be at least one building. If it is not possible to build such house according to the above rules, return -1.
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class ShortestDistanceFromAllBuildings {
     public int shortestDistance(int[][] grid) {
         if(grid == null || grid.length == 0 || grid[0].length == 0) {

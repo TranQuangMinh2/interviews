@@ -20,7 +20,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class LowestCommonAncestorsOfABinaryTree {
+public class LowestCommonAncestorOfABinaryTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null || root == p || root == q) {
             return root;

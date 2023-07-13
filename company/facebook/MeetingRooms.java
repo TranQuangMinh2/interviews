@@ -4,6 +4,9 @@
 // Given [[0, 30],[5, 10],[15, 20]],
 // return false.
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * Definition for an interval.
  * public class Interval {

@@ -24,6 +24,9 @@
 
 // [[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (positions with parentheses in above matrix).
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class PacificAtlanticWaterFlow {
     public List<int[]> pacificAtlantic(int[][] matrix) {
         List<int[]> result = new LinkedList<>();

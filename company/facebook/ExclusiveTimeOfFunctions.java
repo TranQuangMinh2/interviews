@@ -27,6 +27,9 @@
 //Functions could be called recursively, and will always end.
 //1 <= n <= 100
 
+import java.util.List;
+import java.util.Stack;
+
 class ExclusiveTimeOfFunctions {
     public int[] exclusiveTime(int n, List<String> logs) {
         Stack<Integer> stack = new Stack <Integer>();

@@ -29,12 +29,12 @@
 // isUnique("make") -> 
 // true
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class UniqueWordAbbreviation {
     HashMap<String, String> map;
 
-    public ValidWordAbbr(String[] dictionary) {
+    public void ValidWordAbbr(String[] dictionary) {
         this.map = new HashMap<String, String>();
         
         for(String word : dictionary) {

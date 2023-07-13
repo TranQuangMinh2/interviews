@@ -5,6 +5,8 @@
 //Note:
 //A valid Sudoku board (partially filled) is not necessarily solvable. Only the filled cells need to be validated.
 
+import java.util.HashSet;
+
 class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         for(int i = 0; i < board.length; i++){

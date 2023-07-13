@@ -15,6 +15,13 @@
     // Word length is at least 1 and at most 5.
     // Each word contains only lowercase English alphabet a-z.
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 public class WordSquares {
     public List<List<String>> wordSquares(String[] words) {
         List<List<String>> ret = new ArrayList<List<String>>();

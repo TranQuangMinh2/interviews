@@ -20,14 +20,18 @@
 //          / \
 //          \_/
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 /**
  * Definition for undirected graph.
- * class UndirectedGraphNode {
- *     int label;
- *     List<UndirectedGraphNode> neighbors;
- *     UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
- * };
  */
+class UndirectedGraphNode {
+    int label;
+    List<UndirectedGraphNode> neighbors;
+    UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
+};
 public class CloneGraph {
     public HashMap<Integer, UndirectedGraphNode> map = new HashMap<Integer, UndirectedGraphNode>();
     

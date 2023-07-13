@@ -26,11 +26,14 @@
 // // logging string "foo" at timestamp 11
 // logger.shouldPrintMessage(11,"foo"); returns true;
 
+import java.util.HashMap;
+
 public class LoggerRateLimiter {
     HashMap<String, Integer> messages;
 
-    /** Initialize your data structure here. */
-    public Logger() {
+    /** Initialize your data structure here. 
+     * @return */
+    public void Logger() {
        this.messages = new HashMap<String, Integer>(); 
     }
     
