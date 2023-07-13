@@ -24,6 +24,7 @@ class TrieNode {
 }
 
 public class ImplementTrie {
+    
     private TrieNode root;
 
     public ImplementTrie() {

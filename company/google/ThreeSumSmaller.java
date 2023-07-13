@@ -10,7 +10,9 @@
 // Follow up:
     // Could you solve it in O(n2) runtime?
 
-public class 3SumSmaller {
+import java.util.Arrays;
+
+public class ThreeSumSmaller {
     public int threeSumSmaller(int[] nums, int target) {
         //initialize total count to zero
         int count = 0;
