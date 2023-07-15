@@ -8,4 +8,9 @@ public class AddDigitsTest {
         AddDigits ad = new AddDigits();
         assertEquals(2, ad.addDigits(38));
     }
+    @Test
+    public void Digit1() {
+        AddDigits ad = new AddDigits();
+        assertEquals(2, ad.addDigits(38));
+    }
 }
